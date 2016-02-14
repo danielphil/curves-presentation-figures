@@ -13,4 +13,4 @@ ax.set_ylabel('my y label')
 ax.set_title('plot title goes here')
 
 plt.tight_layout()
-plt.savefig('labelled_plot.png', dpi=150, transparent=True)
+plt.savefig('output/labelled_plot.png', dpi=150, transparent=True)

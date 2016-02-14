@@ -21,7 +21,7 @@ ax.set_ylim((0, 5))
 
 plt.tight_layout()
 # facecolor='black' for a black background
-plt.savefig('sequence_of_points.png', dpi=150, transparent=True)
+plt.savefig('output/sequence_of_points.png', dpi=150, transparent=True)
 
 f, ax = plt.subplots(1, 1, figsize=(5, 4))
 helpers.setGraphStyle(ax)
@@ -33,4 +33,4 @@ ax.set_xlim((0, 5))
 ax.set_ylim((0, 5))
 
 plt.tight_layout()
-plt.savefig('sequence_of_points_100.png', dpi=150, transparent=True)
+plt.savefig('output/sequence_of_points_100.png', dpi=150, transparent=True)

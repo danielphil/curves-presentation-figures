@@ -28,5 +28,5 @@ def animate(i):
 plt.tight_layout()
 
 anim = animation.FuncAnimation(fig, animate, init_func=init, frames=frameCount, interval=100)
-anim.save('basic_animation.gif', writer='imagemagick')
+anim.save('output/basic_animation.gif', writer='imagemagick')
 #plt.show()
